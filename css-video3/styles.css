@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+.minhadiv {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    top: 0px;
+    /* bottom: 200px; */
+    left: 500px;
+    /* right: ; */
+}
