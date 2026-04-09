@@ -3,17 +3,26 @@
 }
 
 body {
-    height: 200vh;
-    width: 200vw;
+    height: 500px;
+    width: 500px;
+    /* background-color: red; */
+    position: static;
 }
 
 .minhadiv {
     width: 100%;
     height: 50px;
     background-color: green;
-    position: fixed;
-    top: 0px;
-    /* bottom: 200px; */
-    left: px;
-    /* right: ; */
+    /* position: absolute; */
+    /* top: 0px;
+    bottom: 200px;
+    left: 0px;/
+    right: 0px; */
+}
+
+.absolute {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
 }

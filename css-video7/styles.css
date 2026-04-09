@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+
+.minhadiv {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    display: inline;
+    display: inline-block;
+    /* display: none; */
+}
