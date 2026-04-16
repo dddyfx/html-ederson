@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+.minhadiv {
+    width: 500px;
+    height: 500px;
+    background-image: url(https://img.cdndsgni.com/preview/13087476.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
