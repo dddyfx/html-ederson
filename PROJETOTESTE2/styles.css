@@ -76,8 +76,14 @@ li:hover {
 
 .trailer {
     width: 50%;
-
+    height: auto;
+    max-width: 100%;
+    max-height: 380px;
+    object-fit: cover;
+    display: block;
 }
+
+
 
 #sinopse {
     width: 50%;
@@ -155,6 +161,31 @@ li:hover {
     transform: scale(1.02);
 }
 
+.destino-1 {
+    background-image: url('./destino1.png');
+}
+
+.destino-2 {
+    background-image: url('./destino2.png');
+}
+
+.destino-3 {
+    background-image: url('./destino3.png');
+}
+
+.contato-1 {
+    background-image: url('./contato1.png');
+}
+
+.contato-2 {
+    background-image: url('./contato2.png');
+}
+
+.contato-3 {
+    background-image: url('./contato3.png');
+}
+
+
 .banner-1 {
     background-image: url('./bannerbr.png');
 }
@@ -165,6 +196,18 @@ li:hover {
 
 .banner-3 {
     background-image: url('./banneresp.png');
+}
+
+.pacote-1 {
+    background-image: url('./pacote1.png');
+}
+
+.pacote-2 {
+    background-image: url('./pacote2.png');
+}
+
+.pacote-3 {
+    background-image: url('./pacote3.png');
 }
 
 footer {
@@ -190,6 +233,26 @@ span {
     flex-direction: column;
     align-items: center;
 
+}
+
+.destinos-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: black;
+}
+
+.destinos-intro h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.destinos-intro p {
+    font-size: 19px;
 }
 
 @media (max-width: 768px) {
